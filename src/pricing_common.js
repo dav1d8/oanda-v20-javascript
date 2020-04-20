@@ -135,6 +135,14 @@ class Price extends Definition {
             this.tradeable = data['tradeable'];
         }
 
+        if (data['type'] !== undefined) {
+            this.type = data['type'];
+        }
+
+        if (data['time'] !== undefined) {
+            this.time = data['time'];
+        }
+
         if (data['timestamp'] !== undefined) {
             this.timestamp = data['timestamp'];
         }
