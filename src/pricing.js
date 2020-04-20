@@ -10,7 +10,7 @@ var pricing_common = require('./pricing_common');
 var order = require('./order');
 var instrument = require('./instrument');
 
-
+var Price = pricing_common.Price;
 
 const ClientPrice_Properties = [
     new Property(
